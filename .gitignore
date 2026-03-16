@@ -1,0 +1,15 @@
+# Sensitive files - NEVER commit these
+gcp-key.json
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Deployment artifacts (not needed for Streamlit Cloud)
+deploy.py
+Dockerfile
+.dockerignore
